@@ -9,7 +9,7 @@ import { AiOutlineSend } from "react-icons/ai";
 import { GrGallery } from "react-icons/gr";
 import socketIO from "socket.io-client";
 import { format } from "timeago.js";
-const ENDPOINT = "http://localhost:5000/";
+const ENDPOINT = "http://65.2.171.194:5000/";
 const socketId = socketIO(ENDPOINT, { transports: ["websocket"]});
 
 const DashboardMessages = () => {
